@@ -8,7 +8,7 @@ Shared graph primitives loaded once at import time.
 from __future__ import annotations
 import json, math, heapq, os
 
-_NAV_GRAPH_PATH = os.getenv("NAV_GRAPH_PATH", "OSM_GRAPH/tirumala_navigation_graph_final.json")
+_NAV_GRAPH_PATH = os.getenv("NAV_GRAPH_PATH", "tirumala_navigation_graph_final.json")
 
 print("[GraphUtils] Loading navigation JSON...")
 with open(_NAV_GRAPH_PATH, "r", encoding="utf-8") as _f:
