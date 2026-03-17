@@ -1,0 +1,36 @@
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Large files
+OSM_GRAPH/
+*.json
+
+# Model cache
+.cache/
+sentence_transformers/
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+*.apk
+*.aab
+*.unitypackage
+*.zip
+*.rar
+
+.gradle/
